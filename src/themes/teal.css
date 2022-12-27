@@ -1,0 +1,38 @@
+.amplify-button[data-variation='header']{
+    background-color: var(--amplify-colors-teal-80);
+    color: var(--amplify-colors-teal-10)
+}
+
+.amplify-button[data-variation='header']:active{
+    background-color: var(--amplify-colors-teal-90);
+    color: var(--amplify-colors-teal-20);
+}
+
+.amplify-button[aria-haspopup='menu'][data-state='open']{
+    background-color: var(--amplify-colors-teal-90);
+}
+
+.amplify-button[aria-haspopup='menu'][data-state='closed']{
+    background-color: var(--amplify-colors-teal-80);
+}
+
+.amplify-button[aria-haspopup='menu'][data-state='closed']:hover{
+    background-color: var(--amplify-colors-teal-90);
+}
+
+.amplify-menu-content__item:first-child:hover{
+    background-color: var(--amplify-colors-teal-80);
+    border-top-left-radius: var(--amplify-components-menu-border-radius);
+    border-top-right-radius: var(--amplify-components-menu-border-radius);
+}
+
+.amplify-menu-content__item:last-child:hover{
+    background-color: var(--amplify-colors-teal-80);
+    border-bottom-left-radius: var(--amplify-components-menu-border-radius);
+    border-bottom-right-radius: var(--amplify-components-menu-border-radius);  
+}
+
+.amplify-menu-content__item:hover{
+    background-color: var(--amplify-colors-teal-80);
+    border-radius: 0;
+}
